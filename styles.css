@@ -1,0 +1,210 @@
+/* Resetear los estilos por defecto del navegador */
+body, h1, h2, p, ul, li {
+    margin: 1;
+    padding: 2;
+}
+
+/* Estilos generales */
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #E0E0E0;
+    color: #333;
+}
+
+header {
+    background-color:  #E0E0E0;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.encabezado {
+    position: relative;
+    background: linear-gradient(45deg, #29B6F6, #81C784);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: slideIn 1s ease-in-out;
+}
+
+.encabezado h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Sección de Recomendaciones de Productos */
+.recomendaciones-productos {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recomendaciones-productos h2 {
+    color: #81C784;
+    margin-top: 0;
+}
+
+.recomendaciones-productos p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.recomendaciones-productos ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.recomendaciones-productos li {
+    margin-bottom: 10px;
+}
+
+/* Productos a la Venta */
+.recomendaciones-productos h2:last-child {
+    color: #FF7043;
+    margin-top: 40px;
+}
+
+.horario {
+    background-color: #FFF;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos de la página de servicios */
+.servicios {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Estilos para centrar el contenido de los elementos de servicio */
+.servicio {
+    text-align: center;
+    margin-bottom: 40px; /* Espacio entre los elementos de servicio */
+    background-color: #FFF; /* Fondo blanco */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.servicio img {
+    display: block;
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    max-width: 100%;
+    height: auto;
+}
+
+.servicio h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.servicio p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.precio {
+    color: #29B6F6;
+    font-weight: bold;
+}
+
+
+.galeria {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.imagen {
+    background-color: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen p {
+    margin-top: 10px;
+    color: #29B6F6;
+}
+
+.opiniones {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.opinion {
+    background-color: #FFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.opinion img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.cliente {
+    color: #29B6F6;
+    font-weight: bold;
+}
+.presentacion h2 {
+    color: #29B6F6;
+    margin-bottom: 10px;
+}
+
+.presentacion p {
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #546E7A;
+    color: #FFF;
+}
